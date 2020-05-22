@@ -1,0 +1,91 @@
+.zenGarden {
+    color: pink;
+}
+
+.lines {
+    line-height: 0.7px;
+}
+
+.header {
+    height: 100px;
+    padding: 20px 20px;
+    margin-bottom: 15px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 1px 1px 5px;
+}
+
+.border {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 5px;
+}
+
+.right {
+    overflow: auto;
+    width: 30%;
+    float: left;
+    height: 100%; 
+  }
+
+  .left {
+    overflow: auto; 
+    width: 70%;
+    float: left;
+    height: 100%;
+  }
+
+body {
+    background-color: #DCDCDC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.text_right {
+    padding: 5px 10px
+}
+
+hr {
+    border-top: 1px dotted black;
+}
+
+ul {
+    list-style: none;
+  }
+
+ul li::before {
+    color: #E41CC2;
+    content:"\003e";
+    font-weight: bold;
+}
+
+.purple_color_bold {
+    color: #E41CC2;
+    font-weight: bold;
+}
+
+.purple_color {
+    color: #E41CC2;
+    font-weight: normal;
+}
+
+.right_space {
+    text-align: left;
+    padding-right: 10px;
+    padding-left: 400px;
+}
+
+.left_space {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 100px;
+}
